@@ -1,0 +1,157 @@
+/* formatando a pagina */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+    background-color:#ffac26;
+}
+header{
+    padding: 16px;
+    background-color:#010101;
+    color:#ffff;
+} 
+header, p{
+    font-family: "Oswald", sans-serif;/* mudar a fonte*/
+    color: #ffff;
+    font-weight: normal;
+}   
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header h3{
+    font-weight: normal;
+    color: #ffff;
+    font-family: "Oswald", sans-serif;
+}
+header nav li a{
+    color: #ffff;
+    text-decoration: none;
+}
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    text-align: center;
+}
+.name img{
+    margin-bottom: 20 px;
+    padding-top: 60px;
+    max-width: 350px;
+    width: 100%;
+}
+.image img{
+    margin-left: 250px;
+    width: 300px;
+    padding-top:30px ;
+    display: flex;
+    
+}
+section .image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+p{
+    padding-top: 20px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    text-align: justify;
+    color: #010101;
+    margin-right: 250px;
+    font-family:"Arimo", sans-serif;
+}
+section{
+    padding: 24 0;
+}
+h2{
+    padding-top: 80px;
+    padding-left: 200px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 30;
+}
+.branch_list h2{
+    padding-top: 150px; 
+}
+.branch_list{
+    text-align: center;
+}
+.branch_list img{
+    height:180px;
+    padding-right: 20px;
+    padding-top: 124px;
+    padding: 2px;
+    height: 56px;
+    width: 148px;
+}
+.branch_list li{
+    display: inline;
+}
+.branch_list h2{
+    padding-right: 200px;
+}
+.contact_methods{
+    display: block;
+    text-align: center;
+}
+input{
+    padding-top: 6px;
+    margin-bottom: 8px;
+    width: 300px;
+}
+form textarea{
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+.google_maps h2{
+    padding-left: 600px;
+    padding-bottom: 8px;
+    font-size:22px;
+    font-family: "Oswald", sans-serif;
+    padding-left: 590px;
+}
+.google_maps p{
+    padding-left: 500px;
+    font-size: 12px;
+}
+
+.maps{
+    text-align: center;
+}
+footer{
+    background-color: #010101;
+    padding: 0,7px;
+}
+footer p{
+    color: #fff;
+    padding-left: 450px;
+
+}
+.container h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    padding-left: 610px;
+    font-weight: 30;    
+}
+form button{
+    background-color: #451d44;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height:24px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
